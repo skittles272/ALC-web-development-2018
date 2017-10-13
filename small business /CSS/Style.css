@@ -1,0 +1,206 @@
+/* Style Sheet for Potions and Purpose Website */
+/* Global Style */     
+body{
+    background-color: #FFFED3;
+    margin:0;
+    font-family:cursive;
+}
+
+div#container{
+    margin:auto;
+    width:1024px;
+    background-color:#FFFED3;
+}
+
+header{
+    display:block;
+    width:100%;
+    height:150px;
+    background-position:top;
+    background-size: 1100px;
+    margin:0;
+    padding:0;
+    background-color:#E8D4B5;
+    border:2px dotted #E8D4B5;
+    
+}
+header h1{
+    color:black;
+    text-shadow: 1px 1px 1px darkgray;
+    text-align: center;
+    margin-top: 50px;
+    margin: 50px;
+    padding: 0;
+    font-family: cursive
+}
+
+nav{
+    float:left;
+    background-color: #FFFED3;
+    margin: 0;
+    padding: 0;
+    clear:both;
+    width:100%;
+    box-shadow:1px 1px 2px black;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    list-style: none;
+    font-family:cursive;
+}
+
+nav ul li{
+    float:left;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px
+}
+
+nav ul li a:hover {
+    background-color: #E8D4B5;
+}
+
+nav .active{
+    background-color: #E8D4B5;
+}
+
+#content{
+    background-color: #FFE1DD;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer{
+    width:100%;
+    background-color:#E8D4B5;
+    color: black;
+    text-align: center;
+}
+/* index.html Style */
+#h2-main{
+    float:left;
+    width:60%;
+    color:aqua;
+    text-shadow: 1px 1px 1px lime;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-family: cursive;
+    
+}
+#imgmain{
+    display: block;
+    width:350px;
+    margin:10px;
+    border:5px lime outset;
+    float:left;
+}
+#p-main{
+    width:350%;
+    float:left;
+    margin-top: 10px;
+}
+
+#content h2{
+    float:left;
+    width:100%;
+    color:black;
+    text-shadow: 1px 1px 1px dimgray;
+}
+/* About.html */
+img#h-Hannah{
+    width: 500px;
+    margin: 10px;
+    border: 5px outset #E8D4B5;
+    float:left;
+}
+h2#h2-aboout{
+    float:left;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+p#p-about{
+    float:left;
+    width:48%;
+    margin-top: 10px;
+}
+#h-potions{
+    display: block;
+ /*   margin:3px 20px 5px 10px; */
+
+    margin-top:3px;
+    margin-right:20px;
+    margin-bottom:5px;
+    margin-left:10px;
+}
+.keepOpen {
+    clear:both;
+}
+/* produce.html */
+#gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px dotted #E8D4B5;
+    width: 100%
+}
+
+figure{
+    border:2px brown outset;
+    box-shadow: 1px 1px 10px #E8D4B5;
+    background-color: blanchedalmond;
+    width: 250px;
+    float:left;
+    margin: 10px 15px;
+    flex: 0 0 30%;
+    
+}
+figure img{
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin: 10px auto;
+    border: 2px inset brown;
+}
+figcaption{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+/* contatct.html */
+h2#h2-contact{
+    margin-left: 15px;
+    
+}
+form#form-contact{
+    margin-left: 15px;
+}
+form input{
+    margin-bottom: 10px;
+}
+form textarea{
+    clear: both;
+}
+button{
+    
+}
+
+div#map{
+    margin-top:0;
+    margin-right:20px;
+    float:right;
+}
+
+
+
